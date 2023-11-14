@@ -1,11 +1,14 @@
 package LibrarySystem;
 
+// User class represents a library user
 public class User {
-	String name;
-	int libraryId;
+    // Properties of a user
+    String name;        // User's name
+    int libraryId;      // Unique identifier for the user in the library system
 
-	public User(String name, int libraryId) {
-		this.name = name;
-		this.libraryId = libraryId;
-	}
+    // Constructor to initialize a user
+    public User(String name, int libraryId) {
+        this.name = name;
+        this.libraryId = libraryId;
+    }
 }
